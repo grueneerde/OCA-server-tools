@@ -170,7 +170,8 @@ class auditlog_rule(models.Model):
         for rule in self:
             model_model = self.env[rule.model_id.model]
             for method in ['create', 'read', 'write', 'unlink']:
-                if getattr(rule, 'log_%s' % method):
+                if getattr(rule, 'log_%s' % method) and hasattr(
+                        getattr(model_model, method), 'origin'):
                     model_model._revert_method(method)
                     updated = True
         if updated:
@@ -207,6 +208,7 @@ class auditlog_rule(models.Model):
     def _make_create(self):
         """Instanciate a create method that log its calls."""
         @api.model
+        @api.returns('self', lambda value: value.id)
         def create(self, vals, **kwargs):
             self = self.with_context(auditlog_disabled=True)
             rule_model = self.env['auditlog.rule']
