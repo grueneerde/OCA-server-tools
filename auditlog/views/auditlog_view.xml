@@ -3,8 +3,9 @@
     <data>
 
         <menuitem id="menu_audit" name="Audit"
-            parent="base.menu_reporting_dashboard" sequence="50"
+            parent="base.menu_reporting" sequence="50"
             groups="base.group_system"/>
+
 
         <!-- auditlog.rule -->
 
