@@ -24,9 +24,9 @@ odoo.define('base_export_manager.base_export_manager', function(require) {
             });
         },
         add_field: function(field_id, string) {
-            var field_list = this.$el.find('#fields_list');
-            if (this.$el.find("#fields_list option[value='" + field_id + "']") &&
-                !this.$el.find("#fields_list option[value='" + field_id + "']").length)
+            var field_list = this.$el.find('.o_fields_list');
+            if (this.$el.find(".o_fields_list option[value='" + field_id + "']") &&
+                !this.$el.find(".o_fields_list option[value='" + field_id + "']").length)
             {
                 field_list.append(new Option(string + ' (' + field_id + ')', field_id));
             }
