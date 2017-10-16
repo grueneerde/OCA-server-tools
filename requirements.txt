@@ -9,4 +9,3 @@ fdb
 sqlalchemy
 raven
 checksumdir
-python-stdnum
