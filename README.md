@@ -31,9 +31,9 @@ addon | version | summary
 [auth_user_case_insensitive](auth_user_case_insensitive/) | 10.0.1.0.0 | Makes the user login field case insensitive
 [auto_backup](auto_backup/) | 10.0.1.0.2 | Backups database
 [base_cron_exclusion](base_cron_exclusion/) | 10.0.1.0.0 | Allow you to select scheduled actions that should not run simultaneously.
-[base_custom_info](base_custom_info/) | 10.0.1.0.0 | Add custom field in models
+[base_custom_info](base_custom_info/) | 10.0.1.1.0 | Add custom field in models
 [base_directory_file_download](base_directory_file_download/) | 10.0.1.0.0 | Download all files of a directory on server
-[base_exception](base_exception/) | 10.0.4.0.0 | This module provide an abstract model to manage customizable exceptions to be applied on different models (sale order, invoice, ...)
+[base_exception](base_exception/) | 10.0.4.1.0 | This module provide an abstract model to manage customizable exceptions to be applied on different models (sale order, invoice, ...)
 [base_export_manager](base_export_manager/) | 10.0.1.0.0 | Manage model export profiles
 [base_export_security](base_export_security/) | 10.0.1.0.0 | Security features for Odoo exports
 [base_external_dbsource](base_external_dbsource/) | 10.0.2.0.0 | External Database Sources
@@ -49,7 +49,7 @@ addon | version | summary
 [base_import_match](base_import_match/) | 10.0.1.0.0 | Try to avoid duplicates before importing
 [base_import_odoo](base_import_odoo/) | 10.0.1.0.0 | Import records from another Odoo instance
 [base_import_security_group](base_import_security_group/) | 10.0.1.0.0 | Group-based permissions for importing CSV files
-[base_jsonify](base_jsonify/) | 10.0.1.0.0 | Base module that provide the jsonify method on all models
+[base_jsonify](base_jsonify/) | 10.0.1.1.0 | Base module that provide the jsonify method on all models
 [base_kanban_stage](base_kanban_stage/) | 10.0.1.2.1 | Provides stage model and abstract logic for inheritance
 [base_kanban_stage_state](base_kanban_stage_state/) | 10.0.1.0.0 | Maps stages from base_kanban_stage to states
 [base_locale_uom_default](base_locale_uom_default/) | 10.0.1.0.0 | This provides settings to select default UoMs at the language level.
@@ -84,7 +84,7 @@ addon | version | summary
 [mass_sorting](mass_sorting/) | 10.0.1.0.0 | Sort any models by any fields list
 [module_auto_update](module_auto_update/) | 10.0.2.0.3 | Automatically update Odoo modules
 [module_prototyper](module_prototyper/) | 10.0.1.0.0 | Prototype your module.
-[onchange_helper](onchange_helper/) | 10.0.1.0.0 | Technical module that ease execution of onchange in Python code
+[onchange_helper](onchange_helper/) | 10.0.3.1.0 | Technical module that ease execution of onchange in Python code
 [password_security](password_security/) | 10.0.1.1.4 | Allow admin to set password security requirements.
 [res_config_settings_enterprise_remove](res_config_settings_enterprise_remove/) | 10.0.1.0.0 | Remove fields in all settings views marked as enterprise
 [scheduler_error_mailer](scheduler_error_mailer/) | 10.0.1.0.0 | Scheduler Error Mailer
@@ -97,6 +97,7 @@ addon | version | summary
 [sql_export](sql_export/) | 10.0.1.0.0 | Export data in csv file with SQL requests
 [sql_request_abstract](sql_request_abstract/) | 10.0.1.0.1 | Abstract Model to manage SQL Requests
 [subscription_action](subscription_action/) | 10.0.1.0.0 | Run a server action on a newly created document
+[test_onchange_helper](test_onchange_helper/) | 10.0.2.1.0 | Test addon for the onchange_helper addon
 [user_immutable](user_immutable/) | 10.0.1.0.0 | Add Immutable User Support
 [user_threshold](user_threshold/) | 10.0.1.0.1 | Add Configurable User Threshold Support
 [users_ldap_groups](users_ldap_groups/) | 10.0.0.0.0 | Adds user accounts to groups based on rules defined by the administrator.
