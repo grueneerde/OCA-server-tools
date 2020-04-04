@@ -42,7 +42,7 @@ addon | version | summary
 [base_mixin_restrict_field_access](base_mixin_restrict_field_access/) | 8.0.1.0.0 | Make it simple to restrict read and/or write access to certain fields base on some condition
 [base_module_doc_rst](base_module_doc_rst/) | 8.0.1.0.0 | Modules Technical Guides in RST and Relationship Graphs
 [base_multi_image](base_multi_image/) | 8.0.2.0.0 | Allow multiple images for database objects
-[base_name_search_improved](base_name_search_improved/) | 8.0.1.0.2 | Friendlier search when typing in relation fields
+[base_name_search_improved](base_name_search_improved/) | 8.0.1.2.0 | Friendlier search when typing in relation fields
 [base_optional_quick_create](base_optional_quick_create/) | 8.0.0.1.0 | Avoid 'quick create' on m2o fields, on a 'by model' basis
 [base_report_auto_create_qweb](base_report_auto_create_qweb/) | 8.0.1.0.0 | Report qweb auto generation
 [base_search_fuzzy](base_search_fuzzy/) | 8.0.1.0.0 | Fuzzy search with the PostgreSQL trigram extension
@@ -50,7 +50,7 @@ addon | version | summary
 [base_user_gravatar](base_user_gravatar/) | 8.0.1.0.0 | Synchronize Gravatar image
 [base_user_reset_access](base_user_reset_access/) | 8.0.1.0.0 | Reset User Access Right
 [base_user_role](base_user_role/) | 8.0.1.2.0 | User roles
-[base_view_inheritance_extension](base_view_inheritance_extension/) | 8.0.1.0.0 | Adds more operators for view inheritance
+[base_view_inheritance_extension](base_view_inheritance_extension/) | 8.0.1.1.0 | Adds more operators for view inheritance
 [cron_inactivity_period](cron_inactivity_period/) | 8.0.1.0.0 | Inactivity Periods for Cron Jobs
 [cron_run_manually](cron_run_manually/) | 8.0.1.0.0 | Call cron jobs from their form view
 [database_cleanup](database_cleanup/) | 8.0.0.1.0 | Database cleanup
