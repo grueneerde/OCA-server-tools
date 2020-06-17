@@ -19,6 +19,12 @@ msgid "A new page"
 msgstr ""
 
 #. module: base_view_inheritance_extension
+#: code:addons/base_view_inheritance_extension/models/ir_ui_view.py:134
+#, python-format
+msgid "Invalid target_position attribute: '%s'"
+msgstr ""
+
+#. module: base_view_inheritance_extension
 #: model:ir.ui.view,arch_db:base_view_inheritance_extension.view_partner_form
 msgid "Partner form"
 msgstr ""
