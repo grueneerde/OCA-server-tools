@@ -20,7 +20,7 @@ addon | version | summary
 --- | --- | ---
 [attachment_base_synchronize](attachment_base_synchronize/) | 10.0.1.0.0 | Attachment Base Synchronize
 [auditlog](auditlog/) | 10.0.1.0.0 | Audit Log
-[auth_admin_passkey](auth_admin_passkey/) | 10.0.1.0.1 | Authentification - Admin Passkey
+[auth_admin_passkey](auth_admin_passkey/) | 10.0.1.0.2 | Authentification - Admin Passkey
 [auth_brute_force](auth_brute_force/) | 10.0.2.2.0 | Track Authentication Attempts and Prevent Brute-force Attacks
 [auth_oauth_multi_token](auth_oauth_multi_token/) | 10.0.1.0.0 | Allow multiple connection with the same OAuth account
 [auth_session_timeout](auth_session_timeout/) | 10.0.1.0.3 | This module disable all inactive sessions since a given delay
@@ -81,7 +81,7 @@ addon | version | summary
 [letsencrypt](letsencrypt/) | 10.0.1.0.0 | Request SSL certificates from letsencrypt.org
 [mail_environment](mail_environment/) | 10.0.1.0.0 | Configure mail servers with server_environment_files
 [mail_log_message_to_process](mail_log_message_to_process/) | 10.0.1.0.0 | Log all messages received, before they start to be processed.
-[mass_editing](mass_editing/) | 10.0.1.1.0 | Mass Editing
+[mass_editing](mass_editing/) | 10.0.1.2.0 | Mass Editing
 [mass_sorting](mass_sorting/) | 10.0.1.0.0 | Sort any models by any fields list
 [module_auto_update](module_auto_update/) | 10.0.2.0.3 | Automatically update Odoo modules
 [module_prototyper](module_prototyper/) | 10.0.1.0.0 | Prototype your module.
