@@ -5,7 +5,10 @@ dataclasses
 dnspython
 josepy
 odoorpc
+openpyxl
 openupgradelib
 pyyaml
 raven
 unidecode
+xlrd
+xlwt
