@@ -26,7 +26,7 @@ addon | version | maintainers | summary
 [base_changeset](base_changeset/) | 14.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Track record changesets
 [base_cron_exclusion](base_cron_exclusion/) | 14.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Allow you to select scheduled actions that should not run simultaneously.
 [base_exception](base_exception/) | 14.0.1.0.3 |  | This module provide an abstract model to manage customizable exceptions to be applied on different models (sale order, invoice, ...)
-[base_jsonify](base_jsonify/) | 14.0.1.1.0 |  | Base module that provide the jsonify method on all models
+[base_jsonify](base_jsonify/) | 14.0.1.2.0 |  | Base module that provide the jsonify method on all models
 [base_kanban_stage](base_kanban_stage/) | 14.0.1.0.0 |  | Provides stage model and abstract logic for inheritance
 [base_kanban_stage_state](base_kanban_stage_state/) | 14.0.1.0.0 |  | Maps stages from base_kanban_stage to states
 [base_m2m_custom_field](base_m2m_custom_field/) | 14.0.1.1.0 |  | Customizations of Many2many
@@ -54,6 +54,7 @@ addon | version | maintainers | summary
 [onchange_helper](onchange_helper/) | 14.0.1.0.0 |  | Technical module that ease execution of onchange in Python code
 [scheduler_error_mailer](scheduler_error_mailer/) | 14.0.1.0.0 |  | Scheduler Error Mailer
 [sentry](sentry/) | 14.0.1.0.1 |  | Report Odoo errors to Sentry
+[sequence_python](sequence_python/) | 14.0.1.0.0 |  | Calculate a sequence number from a Python expression
 [slow_statement_logger](slow_statement_logger/) | 14.0.1.0.1 |  | Log slow SQL statements
 [sql_export](sql_export/) | 14.0.1.1.0 |  | Export data in csv file with SQL requests
 [sql_export_excel](sql_export_excel/) | 14.0.1.1.0 |  | Allow to export a sql query to an excel file.
