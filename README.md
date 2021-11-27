@@ -78,7 +78,7 @@ addon | version | maintainers | summary
 [html_image_url_extractor](html_image_url_extractor/) | 10.0.1.0.0 |  | Extract images found in any HTML field
 [html_text](html_text/) | 10.0.1.0.0 |  | Generate excerpts from any HTML field
 [keychain](keychain/) | 10.0.2.0.2 |  | Store accounts and credentials
-[letsencrypt](letsencrypt/) | 10.0.1.0.0 |  | Request SSL certificates from letsencrypt.org
+[letsencrypt](letsencrypt/) | 10.0.2.0.0 |  | Request SSL certificates from letsencrypt.org
 [mail_environment](mail_environment/) | 10.0.1.0.0 |  | Configure mail servers with server_environment_files
 [mail_log_message_to_process](mail_log_message_to_process/) | 10.0.1.0.0 |  | Log all messages received, before they start to be processed.
 [mass_editing](mass_editing/) | 10.0.2.1.0 |  | Mass Editing
@@ -95,6 +95,7 @@ addon | version | maintainers | summary
 [server_environment](server_environment/) | 10.0.1.3.0 |  | move some configurations out of the database
 [server_environment_files_sample](server_environment_files_sample/) | 10.0.1.0.0 |  | sample config file for server_environment
 [server_environment_ir_config_parameter](server_environment_ir_config_parameter/) | 10.0.1.0.1 |  | Override System Parameters from server environment file
+[slow_statement_logger](slow_statement_logger/) | 10.0.1.0.1 |  | Log slow SQL statements
 [sql_export](sql_export/) | 10.0.1.0.0 |  | Export data in csv file with SQL requests
 [sql_request_abstract](sql_request_abstract/) | 10.0.1.0.1 |  | Abstract Model to manage SQL Requests
 [subscription_action](subscription_action/) | 10.0.1.0.0 |  | Run a server action on a newly created document
