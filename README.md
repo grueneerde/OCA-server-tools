@@ -25,7 +25,7 @@ addon | version | maintainers | summary
 [autovacuum_message_attachment](autovacuum_message_attachment/) | 14.0.1.0.0 |  | Automatically delete old mail messages and attachments
 [base_changeset](base_changeset/) | 14.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Track record changesets
 [base_cron_exclusion](base_cron_exclusion/) | 14.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Allow you to select scheduled actions that should not run simultaneously.
-[base_exception](base_exception/) | 14.0.1.0.4 |  | This module provide an abstract model to manage customizable exceptions to be applied on different models (sale order, invoice, ...)
+[base_exception](base_exception/) | 14.0.1.1.0 |  | This module provide an abstract model to manage customizable exceptions to be applied on different models (sale order, invoice, ...)
 [base_jsonify](base_jsonify/) | 14.0.1.2.0 |  | Base module that provide the jsonify method on all models
 [base_kanban_stage](base_kanban_stage/) | 14.0.1.0.0 |  | Provides stage model and abstract logic for inheritance
 [base_kanban_stage_state](base_kanban_stage_state/) | 14.0.1.0.0 |  | Maps stages from base_kanban_stage to states
@@ -49,6 +49,7 @@ addon | version | maintainers | summary
 [fetchmail_notify_error_to_sender_test](fetchmail_notify_error_to_sender_test/) | 14.0.1.0.0 |  | Test for Fetchmail Notify Error to Sender
 [html_image_url_extractor](html_image_url_extractor/) | 14.0.1.0.0 |  | Extract images found in any HTML field
 [html_text](html_text/) | 14.0.1.0.0 |  | Generate excerpts from any HTML field
+[iap_alternative_provider](iap_alternative_provider/) | 14.0.1.0.0 | [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | Base module for providing alternative provider for iap apps
 [letsencrypt](letsencrypt/) | 14.0.1.0.0 |  | Request SSL certificates from letsencrypt.org
 [module_auto_update](module_auto_update/) | 14.0.1.0.1 |  | Automatically update Odoo modules
 [module_change_auto_install](module_change_auto_install/) | 14.0.1.0.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Customize auto installables modules by configuration
