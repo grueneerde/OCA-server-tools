@@ -2,7 +2,6 @@
 # © 2018 Pieter Paulussen <pieter_paulussen@me.com>
 # © 2021 Stefan Rijnhart <stefan@opener.amsterdam>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
-from odoo.modules.migration import load_script
 from odoo.tests.common import SavepointCase, TransactionCase
 
 from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
@@ -301,17 +300,17 @@ class TestFieldRemoval(SavepointCase):
         self.assertEqual(self.auditlog_rule.model_model, "x_test.model")
 
     def test_01_field_and_model_removal(self):
-        """ Test field and model removal to check auditlog line persistence """
+        """Test field and model removal to check auditlog line persistence"""
         self.assert_values()
 
         # Remove the field
-        self.test_field.with_context({MODULE_UNINSTALL_FLAG: True}).unlink()
+        self.test_field.with_context(**{MODULE_UNINSTALL_FLAG: True}).unlink()
         self.assert_values()
         # The field should not be linked
         self.assertFalse(self.logs.mapped("line_ids.field_id"))
 
         # Remove the model
-        self.test_model.with_context({MODULE_UNINSTALL_FLAG: True}).unlink()
+        self.test_model.with_context(**{MODULE_UNINSTALL_FLAG: True}).unlink()
         self.assert_values()
 
         # The model should not be linked
