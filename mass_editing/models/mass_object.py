@@ -95,7 +95,6 @@ class MassObject(orm.Model):
                     'value': (
                         "ir.actions.act_window," +
                         str(vals['ref_ir_act_window'])),
-                    'object': True,
                 },
                 context)
         self.write(
