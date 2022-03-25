@@ -2,7 +2,8 @@
 # © 2018 Pieter Paulussen <pieter_paulussen@me.com>
 # © 2021 Stefan Rijnhart <stefan@opener.amsterdam>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
-from odoo.tests.common import SavepointCase, TransactionCase
+from odoo.modules.migration import load_script
+from odoo.tests.common import TransactionCase
 
 from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
 
@@ -236,7 +237,7 @@ class TestAuditlogFast(TransactionCase, AuditlogCommon):
         super(TestAuditlogFast, self).tearDown()
 
 
-class TestFieldRemoval(SavepointCase):
+class TestFieldRemoval(TransactionCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -246,32 +247,43 @@ class TestFieldRemoval(SavepointCase):
         existing_audit_logs.unlink()
 
         # Create a test model to remove
-        cls.test_model = cls.env["ir.model"].create(
-            {"name": "x_test_model", "model": "x_test.model", "state": "manual"}
+        cls.test_model = (
+            cls.env["ir.model"]
+            .sudo()
+            .create(
+                [{"name": "x_test_model", "model": "x_test.model", "state": "manual"}]
+            )
         )
 
         # Create a test model field to remove
-        cls.test_field = cls.env["ir.model.fields"].create(
-            {
-                "name": "x_test_field",
-                "field_description": "x_Test Field",
-                "model_id": cls.test_model.id,
-                "ttype": "char",
-                "state": "manual",
-            }
+        cls.test_field = (
+            cls.env["ir.model.fields"]
+            .sudo()
+            .create(
+                [
+                    {
+                        "name": "x_test_field",
+                        "field_description": "x_Test Field",
+                        "model_id": cls.test_model.id,
+                        "ttype": "char",
+                        "state": "manual",
+                    }
+                ]
+            )
         )
-
         # Setup auditlog rule
         cls.auditlog_rule = cls.env["auditlog.rule"].create(
-            {
-                "name": "test.model",
-                "model_id": cls.test_model.id,
-                "log_type": "fast",
-                "log_read": False,
-                "log_create": True,
-                "log_write": True,
-                "log_unlink": False,
-            }
+            [
+                {
+                    "name": "test.model",
+                    "model_id": cls.test_model.id,
+                    "log_type": "fast",
+                    "log_read": False,
+                    "log_create": True,
+                    "log_write": True,
+                    "log_unlink": False,
+                }
+            ]
         )
 
         cls.auditlog_rule.subscribe()
@@ -318,33 +330,33 @@ class TestFieldRemoval(SavepointCase):
         # Assert rule values
         self.assertFalse(self.auditlog_rule.model_id)
 
-    # def test_02_migration(self):
-    #     """Test the migration of the data model related to this feature"""
-    #     # Drop the data model
-    #     self.env.cr.execute(
-    #         """ALTER TABLE auditlog_log
-    #         DROP COLUMN model_name, DROP COLUMN model_model"""
-    #     )
-    #     self.env.cr.execute(
-    #         """ALTER TABLE auditlog_rule
-    #         DROP COLUMN model_name, DROP COLUMN model_model"""
-    #     )
-    #     self.env.cr.execute(
-    #         """ALTER TABLE auditlog_log_line
-    #         DROP COLUMN field_name, DROP COLUMN field_description"""
-    #     )
-    #
-    #     # Recreate the data model
-    #     mod = load_script(
-    #         "auditlog/migrations/14.0.1.1.0/pre-migration.py", "pre-migration"
-    #     )
-    #     mod.migrate(self.env.cr, "14.0.1.0.2")
-    #
-    #     # Values are restored
-    #     self.assert_values()
-    #
-    #     # The migration script is tolerant if the data model is already in place
-    #     mod.migrate(self.env.cr, "14.0.1.0.2")
+    def test_02_migration(self):
+        """Test the migration of the data model related to this feature"""
+        # Drop the data model
+        self.env.cr.execute(
+            """ALTER TABLE auditlog_log
+            DROP COLUMN model_name, DROP COLUMN model_model"""
+        )
+        self.env.cr.execute(
+            """ALTER TABLE auditlog_rule
+            DROP COLUMN model_name, DROP COLUMN model_model"""
+        )
+        self.env.cr.execute(
+            """ALTER TABLE auditlog_log_line
+            DROP COLUMN field_name, DROP COLUMN field_description"""
+        )
+
+        # Recreate the data model
+        mod = load_script(
+            "auditlog/migrations/14.0.1.1.0/pre-migration.py", "pre-migration"
+        )
+        mod.migrate(self.env.cr, "14.0.1.0.2")
+
+        # Values are restored
+        self.assert_values()
+
+        # The migration script is tolerant if the data model is already in place
+        mod.migrate(self.env.cr, "14.0.1.0.2")
 
 
 class TestAuditlogFullCaptureRecord(TransactionCase, AuditlogCommon):
