@@ -28,6 +28,7 @@ msgstr "Tous"
 
 #. module: autovacuum_message_attachment
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field__unknown__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_abstract_conditional_image__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_abstract_config_settings__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_account__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_account_tag__assigned_attachment_ids
@@ -49,8 +50,15 @@ msgstr "Tous"
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_chart_template__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_common_journal_report__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_common_report__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_edi_common__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_edi_document__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_edi_format__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_edi_xml_cii__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_edi_xml_ubl_20__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_edi_xml_ubl_21__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_edi_xml_ubl_bis3__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_edi_xml_ubl_de__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_edi_xml_ubl_efff__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_financial_year_op__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_fiscal_position__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_account_fiscal_position_account__assigned_attachment_ids
@@ -187,6 +195,7 @@ msgstr "Tous"
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_format_address_mixin__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_iap_account__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_iap_enrich_api__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_image__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_image_mixin__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_ir_actions_act_url__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_ir_actions_act_window__assigned_attachment_ids
