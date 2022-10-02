@@ -28,10 +28,11 @@ addon | version | maintainers | summary
 [auditlog](auditlog/) | 14.0.1.3.0 |  | Audit Log
 [auto_backup](auto_backup/) | 14.0.1.0.0 |  | Backups database
 [autovacuum_message_attachment](autovacuum_message_attachment/) | 14.0.1.0.0 |  | Automatically delete old mail messages and attachments
-[base_changeset](base_changeset/) | 14.0.1.1.2 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Track record changesets
+[base_changeset](base_changeset/) | 14.0.1.1.3 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Track record changesets
 [base_conditional_image](base_conditional_image/) | 14.0.1.0.0 |  | This module extends the functionality to support conditional images
 [base_cron_exclusion](base_cron_exclusion/) | 14.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Allow you to select scheduled actions that should not run simultaneously.
 [base_custom_info](base_custom_info/) | 14.0.1.0.1 |  | Add custom field in models
+[base_deterministic_session_gc](base_deterministic_session_gc/) | 14.0.1.0.0 |  | Provide a deterministic session garbage collection instead of the default random one
 [base_exception](base_exception/) | 14.0.2.1.0 | [![hparfr](https://github.com/hparfr.png?size=30px)](https://github.com/hparfr) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | This module provide an abstract model to manage customizable exceptions to be applied on different models (sale order, invoice, ...)
 [base_fontawesome](base_fontawesome/) | 14.0.5.15.4 |  | Up to date Fontawesome resources.
 [base_generate_code](base_generate_code/) | 14.0.1.0.1 | [![Kev-Roche](https://github.com/Kev-Roche.png?size=30px)](https://github.com/Kev-Roche) | Code Generator
@@ -41,7 +42,7 @@ addon | version | maintainers | summary
 [base_m2m_custom_field](base_m2m_custom_field/) | 14.0.1.1.0 |  | Customizations of Many2many
 [base_model_restrict_update](base_model_restrict_update/) | 14.0.1.0.0 |  | Update Restrict Model
 [base_multi_image](base_multi_image/) | 14.0.1.0.0 |  | Allow multiple images for database objects
-[base_name_search_improved](base_name_search_improved/) | 14.0.1.0.0 |  | Friendlier search when typing in relation fields
+[base_name_search_improved](base_name_search_improved/) | 14.0.1.1.0 |  | Friendlier search when typing in relation fields
 [base_name_search_multi_lang](base_name_search_multi_lang/) | 14.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Name search by multiple active language
 [base_remote](base_remote/) | 14.0.1.0.0 |  | Remote Base
 [base_report_auto_create_qweb](base_report_auto_create_qweb/) | 14.0.1.0.1 |  | Report qweb auto generation
