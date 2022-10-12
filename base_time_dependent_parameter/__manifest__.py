@@ -3,11 +3,11 @@
 
 {
     "name": "Time Dependent Parameter",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "summary": """
-    Time dependent parameters
-    Adds the feature to define parameters
-    with time based versions.
+        Time dependent parameters
+        Adds the feature to define parameters
+        with time based versions.
     """,
     "license": "AGPL-3",
     "author": "Nimarosa, Odoo Community Association (OCA)",
