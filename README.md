@@ -30,8 +30,9 @@ addon | version | maintainers | summary
 [base_multi_image](base_multi_image/) | 15.0.1.0.0 |  | Allow multiple images for database objects
 [base_remote](base_remote/) | 15.0.1.0.0 |  | Remote Base
 [base_search_fuzzy](base_search_fuzzy/) | 15.0.1.0.0 |  | Fuzzy search with the PostgreSQL trigram extension
+[base_technical_user](base_technical_user/) | 15.0.1.0.0 |  | Add a technical user parameter on the company
 [base_time_window](base_time_window/) | 15.0.1.0.0 |  | Base model to handle time windows
-[base_view_inheritance_extension](base_view_inheritance_extension/) | 15.0.1.0.1 |  | Adds more operators for view inheritance
+[base_view_inheritance_extension](base_view_inheritance_extension/) | 15.0.1.0.2 |  | Adds more operators for view inheritance
 [datetime_formatter](datetime_formatter/) | 15.0.1.0.0 |  | Helper functions to give correct format to date[time] fields
 [dbfilter_from_header](dbfilter_from_header/) | 15.0.1.0.0 |  | Filter databases with HTTP headers
 [fetchmail_incoming_log](fetchmail_incoming_log/) | 15.0.1.0.0 |  | Log all messages received, before they start to be processed.
