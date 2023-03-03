@@ -8,11 +8,13 @@ setuptools.setup(
     description="Meta package for oca-server-tools Odoo addons",
     version=version,
     install_requires=[
+        'odoo-addon-attachment_unindex_content>=16.0dev,<16.1dev',
         'odoo-addon-auditlog>=16.0dev,<16.1dev',
         'odoo-addon-base_cron_exclusion>=16.0dev,<16.1dev',
         'odoo-addon-base_exception>=16.0dev,<16.1dev',
         'odoo-addon-base_fontawesome>=16.0dev,<16.1dev',
         'odoo-addon-base_m2m_custom_field>=16.0dev,<16.1dev',
+        'odoo-addon-base_search_fuzzy>=16.0dev,<16.1dev',
         'odoo-addon-base_technical_user>=16.0dev,<16.1dev',
         'odoo-addon-base_time_window>=16.0dev,<16.1dev',
         'odoo-addon-base_view_inheritance_extension>=16.0dev,<16.1dev',
