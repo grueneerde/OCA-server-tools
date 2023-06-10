@@ -64,6 +64,23 @@ to refer to some xmlid, say ``%(xmlid)s``.
         $remove_value(s)
     </attribute>
 
+**Add text after and/or before than original**
+
+.. code-block:: xml
+
+    <attribute name="$attribute" operation="text_add">
+        $text_before {old_value} $text_after
+    </attribute>
+
+**Add domain with AND/OR join operator (AND if missed) allowing conditional changes**
+
+.. code-block:: xml
+
+    <attribute name="$attribute" operation="domain_add"
+               condition="$field_condition" join_operator="OR">
+        $domain_to_add
+    </attribute>
+
 **Move an element in the view**
 
 This feature is now native, cf the `official Odoo documentation <https://www.odoo.com/documentation/12.0/reference/views.html#inheritance-specs>`_.
@@ -98,7 +115,12 @@ Contributors
 
 * Holger Brunn <hbrunn@therp.nl>
 * Ronald Portier <rportier@therp.nl>
-* Sergio Teruel <sergio.teruel@tecnativa.com>
+* `Tecnativa <https://www.tecnativa.com>`_:
+
+  * Sergio Teruel
+  * Carlos Dauden
+  * Stefan ungureanu
+
 * Iván Todorovich <ivan.todorovich@camptocamp.com>
 
 Maintainers
