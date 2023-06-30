@@ -30,11 +30,13 @@ addon | version | maintainers | summary
 [autovacuum_message_attachment](autovacuum_message_attachment/) | 14.0.1.0.0 |  | Automatically delete old mail messages and attachments
 [base_changeset](base_changeset/) | 14.0.2.0.1 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Track record changesets
 [base_conditional_image](base_conditional_image/) | 14.0.2.0.0 |  | This module extends the functionality to support conditional images
+[base_contextvars](base_contextvars/) | 14.0.1.0.3 | [![sbidoul](https://github.com/sbidoul.png?size=30px)](https://github.com/sbidoul) | Patch Odoo threadlocals to use contextvars instead.
 [base_cron_exclusion](base_cron_exclusion/) | 14.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Allow you to select scheduled actions that should not run simultaneously.
 [base_custom_info](base_custom_info/) | 14.0.1.0.1 |  | Add custom field in models
 [base_deterministic_session_gc](base_deterministic_session_gc/) | 14.0.1.0.0 |  | Provide a deterministic session garbage collection instead of the default random one
 [base_exception](base_exception/) | 14.0.2.1.0 | [![hparfr](https://github.com/hparfr.png?size=30px)](https://github.com/hparfr) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | This module provide an abstract model to manage customizable exceptions to be applied on different models (sale order, invoice, ...)
 [base_fontawesome](base_fontawesome/) | 14.0.5.15.4 |  | Up to date Fontawesome resources.
+[base_future_response](base_future_response/) | 14.0.1.0.2 | [![sbidoul](https://github.com/sbidoul.png?size=30px)](https://github.com/sbidoul) | Backport Odoo 16 FutureReponse mechanism.
 [base_generate_code](base_generate_code/) | 14.0.1.0.1 | [![Kev-Roche](https://github.com/Kev-Roche.png?size=30px)](https://github.com/Kev-Roche) | Code Generator
 [base_jsonify](base_jsonify/) | 14.0.2.0.0 |  | Base module that provide the jsonify method on all models. WARNING: since version 14.0.2.0.0 the module have been renamed to `jsonifier`. This module now depends on it only for backward compatibility. It will be discarded in v15 likely.
 [base_kanban_stage](base_kanban_stage/) | 14.0.1.0.0 |  | Provides stage model and abstract logic for inheritance
