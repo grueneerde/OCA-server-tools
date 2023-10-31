@@ -25,12 +25,12 @@ class CleanupPurgeLine(models.AbstractModel):
     def purge(self):
         raise NotImplementedError
 
-    @api.model
-    def create(self, values):
+    @api.model_create_multi
+    def create(self, vals_list):
         # make sure the user trying this is actually supposed to do it
         if self.env.ref("base.group_erp_manager") not in self.env.user.groups_id:
             raise AccessDenied
-        return super().create(values)
+        return super().create(vals_list)
 
 
 class PurgeWizard(models.AbstractModel):
@@ -80,11 +80,11 @@ class PurgeWizard(models.AbstractModel):
     def name_get(self):
         return [(this.id, self._description) for this in self]
 
-    @api.model
-    def create(self, values):
+    @api.model_create_multi
+    def create(self, vals_list):
         # make sure the user trying this is actually supposed to do it
         if self.env.ref("base.group_erp_manager") not in self.env.user.groups_id:
             raise AccessDenied
-        return super().create(values)
+        return super().create(vals_list)
 
     purge_line_ids = fields.One2many("cleanup.purge.line", "wizard_id")
