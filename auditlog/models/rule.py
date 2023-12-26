@@ -159,16 +159,16 @@ class AuditlogRule(models.Model):
         )
     ]
 
-    def _register_hook(self):
-        """Get all rules and apply them to log method calls."""
-        super(AuditlogRule, self)._register_hook()
-        if not hasattr(self.pool, "_auditlog_field_cache"):
-            self.pool._auditlog_field_cache = {}
-        if not hasattr(self.pool, "_auditlog_model_cache"):
-            self.pool._auditlog_model_cache = {}
-        if not self:
-            self = self.search([("state", "=", "subscribed")])
-        return self._patch_methods()
+    # def _register_hook(self):
+    #     """Get all rules and apply them to log method calls."""
+    #     super(AuditlogRule, self)._register_hook()
+    #     if not hasattr(self.pool, "_auditlog_field_cache"):
+    #         self.pool._auditlog_field_cache = {}
+    #     if not hasattr(self.pool, "_auditlog_model_cache"):
+    #         self.pool._auditlog_model_cache = {}
+    #     if not self:
+    #         self = self.search([("state", "=", "subscribed")])
+    #     return self._patch_methods()
 
     def _patch_methods(self):
         """Patch ORM methods of models defined in rules to log their calls."""
