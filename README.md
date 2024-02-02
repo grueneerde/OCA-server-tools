@@ -21,10 +21,13 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[base_exception](base_exception/) | 17.0.1.0.0 | [![hparfr](https://github.com/hparfr.png?size=30px)](https://github.com/hparfr) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | This module provide an abstract model to manage customizable exceptions to be applied on different models (sale order, invoice, ...)
 [base_technical_user](base_technical_user/) | 17.0.1.0.0 |  | Add a technical user parameter on the company
 [database_cleanup](database_cleanup/) | 17.0.1.0.0 |  | Database cleanup
+[dbfilter_from_header](dbfilter_from_header/) | 17.0.1.0.0 |  | Filter databases with HTTP headers
 [jsonifier](jsonifier/) | 17.0.1.0.0 |  | JSON-ify data for all models
 [module_change_auto_install](module_change_auto_install/) | 17.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Customize auto installables modules by configuration
+[onchange_helper](onchange_helper/) | 17.0.1.0.0 |  | Technical module that ease execution of onchange in Python code
 
 
 Unported addons
