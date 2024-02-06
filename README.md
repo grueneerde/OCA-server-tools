@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[attachment_queue](attachment_queue/) | 16.0.1.1.0 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | Base module adding the concept of queue for processing files
+[attachment_queue](attachment_queue/) | 16.0.1.2.0 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | Base module adding the concept of queue for processing files
 [attachment_synchronize](attachment_synchronize/) | 16.0.1.0.0 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) [![GSLabIt](https://github.com/GSLabIt.png?size=30px)](https://github.com/GSLabIt) [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) | Attachment Synchronize
 [attachment_unindex_content](attachment_unindex_content/) | 16.0.1.0.0 | [![moylop260](https://github.com/moylop260.png?size=30px)](https://github.com/moylop260) [![ebirbe](https://github.com/ebirbe.png?size=30px)](https://github.com/ebirbe) [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) | Disable indexing of attachments
 [auditlog](auditlog/) | 16.0.2.0.3 |  | Audit Log
@@ -43,7 +43,7 @@ addon | version | maintainers | summary
 [base_view_inheritance_extension](base_view_inheritance_extension/) | 16.0.1.1.0 |  | Adds more operators for view inheritance
 [cron_daylight_saving_time_resistant](cron_daylight_saving_time_resistant/) | 16.0.1.0.0 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Run cron on fixed hours
 [database_cleanup](database_cleanup/) | 16.0.1.0.1 |  | Database cleanup
-[dbfilter_from_header](dbfilter_from_header/) | 16.0.1.0.0 |  | Filter databases with HTTP headers
+[dbfilter_from_header](dbfilter_from_header/) | 16.0.1.0.1 |  | Filter databases with HTTP headers
 [excel_import_export](excel_import_export/) | 16.0.1.1.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Base module for developing Excel import/export/report
 [excel_import_export_demo](excel_import_export_demo/) | 16.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Excel Import/Export/Report Demo
 [excel_import_export_unidecode](excel_import_export_unidecode/) | 16.0.1.0.1 |  | Add unidecode option to excel import/export/report
@@ -60,6 +60,7 @@ addon | version | maintainers | summary
 [session_db](session_db/) | 16.0.1.0.5 | [![sbidoul](https://github.com/sbidoul.png?size=30px)](https://github.com/sbidoul) | Store sessions in DB
 [tracking_manager](tracking_manager/) | 16.0.1.0.2 | [![Kev-Roche](https://github.com/Kev-Roche.png?size=30px)](https://github.com/Kev-Roche) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | This module tracks all fields of a model, including one2many and many2many ones.
 [upgrade_analysis](upgrade_analysis/) | 16.0.1.0.2 | [![StefanRijnhart](https://github.com/StefanRijnhart.png?size=30px)](https://github.com/StefanRijnhart) [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Performs a difference analysis between modules installed on two different Odoo instances
+[url_attachment_search_fuzzy](url_attachment_search_fuzzy/) | 16.0.1.0.0 | [![mariadforgelow](https://github.com/mariadforgelow.png?size=30px)](https://github.com/mariadforgelow) | Fuzzy Search of URL in Attachments
 
 [//]: # (end addons)
 
