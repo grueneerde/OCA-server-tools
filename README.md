@@ -41,7 +41,7 @@ addon | version | maintainers | summary
 [base_kanban_stage_state](base_kanban_stage_state/) | 12.0.1.0.0 |  | Maps stages from base_kanban_stage to states
 [base_locale_uom_default](base_locale_uom_default/) | 12.0.1.0.1 |  | This provides settings to select default UoMs at the language level.
 [base_m2m_custom_field](base_m2m_custom_field/) | 12.0.1.0.0 |  | Customizations of Many2many
-[base_model_restrict_update](base_model_restrict_update/) | 12.0.1.1.0 |  | Update Restrict Model
+[base_model_restrict_update](base_model_restrict_update/) | 12.0.1.1.1 |  | Update Restrict Model
 [base_multi_image](base_multi_image/) | 12.0.1.0.1 |  | Allow multiple images for database objects
 [base_remote](base_remote/) | 12.0.1.0.2 |  | Remote Base
 [base_search_fuzzy](base_search_fuzzy/) | 12.0.1.0.2 |  | Fuzzy search with the PostgreSQL trigram extension
@@ -53,8 +53,8 @@ addon | version | maintainers | summary
 [database_cleanup](database_cleanup/) | 12.0.1.2.1 |  | Database cleanup
 [datetime_formatter](datetime_formatter/) | 12.0.1.0.0 |  | Helper functions to give correct format to date[time] fields
 [dbfilter_from_header](dbfilter_from_header/) | 12.0.1.0.0 |  | Filter databases with HTTP headers
-[excel_import_export](excel_import_export/) | 12.0.1.0.7 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Base module for developing Excel import/export/report
-[excel_import_export_demo](excel_import_export_demo/) | 12.0.1.0.2 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Excel Import/Export/Report Demo
+[excel_import_export](excel_import_export/) | 12.0.1.0.8 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Base module for developing Excel import/export/report
+[excel_import_export_demo](excel_import_export_demo/) | 12.0.1.0.3 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Excel Import/Export/Report Demo
 [fetchmail_incoming_log](fetchmail_incoming_log/) | 12.0.1.0.0 |  | Log all messages received, before they start to be processed.
 [fetchmail_notify_error_to_sender](fetchmail_notify_error_to_sender/) | 12.0.1.0.0 |  | If fetching mails gives error, send an email to sender
 [html_image_url_extractor](html_image_url_extractor/) | 12.0.1.0.0 |  | Extract images found in any HTML field
@@ -68,7 +68,7 @@ addon | version | maintainers | summary
 [module_change_auto_install](module_change_auto_install/) | 12.0.1.0.1 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Customize auto installables modules by configuration
 [onchange_helper](onchange_helper/) | 12.0.1.1.0 |  | Technical module that ease execution of onchange in Python code
 [scheduler_error_mailer](scheduler_error_mailer/) | 12.0.1.2.0 |  | Scheduler Error Mailer
-[sentry](sentry/) | 12.0.2.0.1 | [![barsi](https://github.com/barsi.png?size=30px)](https://github.com/barsi) [![naglis](https://github.com/naglis.png?size=30px)](https://github.com/naglis) [![versada](https://github.com/versada.png?size=30px)](https://github.com/versada) [![moylop260](https://github.com/moylop260.png?size=30px)](https://github.com/moylop260) [![fernandahf](https://github.com/fernandahf.png?size=30px)](https://github.com/fernandahf) | Report Odoo errors to Sentry
+[sentry](sentry/) | 12.0.2.0.2 | [![barsi](https://github.com/barsi.png?size=30px)](https://github.com/barsi) [![naglis](https://github.com/naglis.png?size=30px)](https://github.com/naglis) [![versada](https://github.com/versada.png?size=30px)](https://github.com/versada) [![moylop260](https://github.com/moylop260.png?size=30px)](https://github.com/moylop260) [![fernandahf](https://github.com/fernandahf.png?size=30px)](https://github.com/fernandahf) | Report Odoo errors to Sentry
 [slow_statement_logger](slow_statement_logger/) | 12.0.1.0.2 |  | Log slow SQL statements
 [sql_export](sql_export/) | 12.0.1.2.1 |  | Export data in csv file with SQL requests
 [sql_export_excel](sql_export_excel/) | 12.0.1.1.1 |  | Allow to export a sql query to an excel file.
