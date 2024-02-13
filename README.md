@@ -28,7 +28,7 @@ addon | version | maintainers | summary
 [auditlog](auditlog/) | 12.0.2.1.1 |  | Audit Log
 [auto_backup](auto_backup/) | 12.0.1.0.1 |  | Backups database
 [autovacuum_message_attachment](autovacuum_message_attachment/) | 12.0.1.1.1 |  | Automatically delete old mail messages and attachments
-[base_changeset](base_changeset/) | 12.0.1.1.1 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Track record changesets
+[base_changeset](base_changeset/) | 12.0.1.1.2 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Track record changesets
 [base_conditional_image](base_conditional_image/) | 12.0.1.0.2 |  | Conditional Images
 [base_cron_exclusion](base_cron_exclusion/) | 12.0.1.0.0 |  | Allow you to select scheduled actions that should not run simultaneously.
 [base_custom_info](base_custom_info/) | 12.0.2.1.0 |  | Add custom field in models
@@ -50,9 +50,10 @@ addon | version | maintainers | summary
 [bus_alt_connection](bus_alt_connection/) | 12.0.1.0.0 |  | Needed when using PgBouncer as a connection pooler
 [company_country](company_country/) | 12.0.1.2.1 | [![moylop260](https://github.com/moylop260.png?size=30px)](https://github.com/moylop260) [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) | Set country to main company
 [configuration_helper](configuration_helper/) | 12.0.1.0.0 |  | Configuration Helper
+[cron_inactivity_period](cron_inactivity_period/) | 12.0.1.0.0 |  | Inactivity Periods for Cron Jobs
 [database_cleanup](database_cleanup/) | 12.0.1.2.1 |  | Database cleanup
 [datetime_formatter](datetime_formatter/) | 12.0.1.0.0 |  | Helper functions to give correct format to date[time] fields
-[dbfilter_from_header](dbfilter_from_header/) | 12.0.1.0.0 |  | Filter databases with HTTP headers
+[dbfilter_from_header](dbfilter_from_header/) | 12.0.1.0.1 |  | Filter databases with HTTP headers
 [excel_import_export](excel_import_export/) | 12.0.1.0.8 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Base module for developing Excel import/export/report
 [excel_import_export_demo](excel_import_export_demo/) | 12.0.1.0.3 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Excel Import/Export/Report Demo
 [fetchmail_incoming_log](fetchmail_incoming_log/) | 12.0.1.0.0 |  | Log all messages received, before they start to be processed.
@@ -67,6 +68,7 @@ addon | version | maintainers | summary
 [module_auto_update](module_auto_update/) | 12.0.2.0.6 |  | Automatically update Odoo modules
 [module_change_auto_install](module_change_auto_install/) | 12.0.1.0.1 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Customize auto installables modules by configuration
 [onchange_helper](onchange_helper/) | 12.0.1.1.0 |  | Technical module that ease execution of onchange in Python code
+[profiler](profiler/) | 12.0.1.0.0 | [![thomaspaulb](https://github.com/thomaspaulb.png?size=30px)](https://github.com/thomaspaulb) | profiler
 [scheduler_error_mailer](scheduler_error_mailer/) | 12.0.1.2.0 |  | Scheduler Error Mailer
 [sentry](sentry/) | 12.0.2.0.2 | [![barsi](https://github.com/barsi.png?size=30px)](https://github.com/barsi) [![naglis](https://github.com/naglis.png?size=30px)](https://github.com/naglis) [![versada](https://github.com/versada.png?size=30px)](https://github.com/versada) [![moylop260](https://github.com/moylop260.png?size=30px)](https://github.com/moylop260) [![fernandahf](https://github.com/fernandahf.png?size=30px)](https://github.com/fernandahf) | Report Odoo errors to Sentry
 [slow_statement_logger](slow_statement_logger/) | 12.0.1.0.2 |  | Log slow SQL statements
