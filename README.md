@@ -64,12 +64,12 @@ addon | version | maintainers | summary
 [ir_sequence_standard_default](ir_sequence_standard_default/) | 12.0.1.0.0 | [![moylop260](https://github.com/moylop260.png?size=30px)](https://github.com/moylop260) [![ebirbe](https://github.com/ebirbe.png?size=30px)](https://github.com/ebirbe) | Use Standard implementation of ir.sequence instead of NoGap
 [letsencrypt](letsencrypt/) | 12.0.2.0.1 |  | Request SSL certificates from letsencrypt.org
 [mail_cleanup](mail_cleanup/) | 12.0.1.0.0 |  | Mark as read or delete mails after a set time
-[module_analysis](module_analysis/) | 12.0.1.0.4 |  | Add analysis tools regarding installed modules to know which installed modules comes from Odoo Core, OCA, or are custom modules
+[module_analysis](module_analysis/) | 12.0.1.0.5 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Add analysis tools regarding installed modules to know which installed modules comes from Odoo Core, OCA, or are custom modules
 [module_auto_update](module_auto_update/) | 12.0.2.0.7 |  | Automatically update Odoo modules
 [module_change_auto_install](module_change_auto_install/) | 12.0.1.0.1 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Customize auto installables modules by configuration
 [nsca_client](nsca_client/) | 12.0.1.0.0 |  | Send passive alerts to monitor your Odoo application.
 [onchange_helper](onchange_helper/) | 12.0.1.1.0 |  | Technical module that ease execution of onchange in Python code
-[profiler](profiler/) | 12.0.1.0.0 | [![thomaspaulb](https://github.com/thomaspaulb.png?size=30px)](https://github.com/thomaspaulb) | profiler
+[profiler](profiler/) | 12.0.1.0.1 | [![thomaspaulb](https://github.com/thomaspaulb.png?size=30px)](https://github.com/thomaspaulb) | profiler
 [scheduler_error_mailer](scheduler_error_mailer/) | 12.0.1.2.0 |  | Scheduler Error Mailer
 [sentry](sentry/) | 12.0.2.0.2 | [![barsi](https://github.com/barsi.png?size=30px)](https://github.com/barsi) [![naglis](https://github.com/naglis.png?size=30px)](https://github.com/naglis) [![versada](https://github.com/versada.png?size=30px)](https://github.com/versada) [![moylop260](https://github.com/moylop260.png?size=30px)](https://github.com/moylop260) [![fernandahf](https://github.com/fernandahf.png?size=30px)](https://github.com/fernandahf) | Report Odoo errors to Sentry
 [slow_statement_logger](slow_statement_logger/) | 12.0.1.0.2 |  | Log slow SQL statements
