@@ -42,7 +42,7 @@ class TestDST(TransactionCase):
 
                 registry["ir.cron"]._process_job(db, new_cr, job)
                 # since it is updated as a sql query in module
-                cron.invalidate_recordset()
+                cron.invalidate_cache()
                 day_after_date_orig = (timezone_date_orig + timedelta(days=1)).day
             timezone_date_after = fields.Datetime.context_timestamp(cron, cron.nextcall)
             # check the cron is really planned the next day (which mean it has run
@@ -54,7 +54,7 @@ class TestDST(TransactionCase):
     def test_cron(self):
         user = self.env.ref("base.user_root")
         user.write({"tz": "Europe/Paris"})
-        user.invalidate_recordset()
+        user.invalidate_cache()
         cron = self.env["ir.cron"].create(
             {
                 "name": "TestCron",
