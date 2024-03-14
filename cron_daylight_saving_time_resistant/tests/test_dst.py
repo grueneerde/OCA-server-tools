@@ -28,7 +28,7 @@ class TestDST(TransactionCase):
             cron.write(
                 {"nextcall": datetime_str, "daylight_saving_time_resistant": True}
             )
-            cron.flush_recordset()
+            cron.flush()
             self.env.cr.execute("SELECT * FROM ir_cron WHERE id = %s", (cron.id,))
             job = self.env.cr.dictfetchall()[0]
             timezone_date_orig = fields.Datetime.context_timestamp(cron, cron.nextcall)
