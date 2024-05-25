@@ -27,6 +27,7 @@ addon | version | maintainers | summary
 [auditlog](auditlog/) | 16.0.2.1.0 |  | Audit Log
 [auto_backup](auto_backup/) | 16.0.1.0.0 |  | Backups database
 [autovacuum_message_attachment](autovacuum_message_attachment/) | 16.0.1.0.1 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Automatically delete old mail messages and attachments
+[base_changeset](base_changeset/) | 16.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Track record changesets
 [base_cron_exclusion](base_cron_exclusion/) | 16.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | Allow you to select scheduled actions that should not run simultaneously.
 [base_domain_inverse_function](base_domain_inverse_function/) | 16.0.1.0.0 | [![grindtildeath](https://github.com/grindtildeath.png?size=30px)](https://github.com/grindtildeath) | Provide function to inverse domain into parts
 [base_exception](base_exception/) | 16.0.2.0.1 | [![hparfr](https://github.com/hparfr.png?size=30px)](https://github.com/hparfr) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | This module provide an abstract model to manage customizable exceptions to be applied on different models (sale order, invoice, ...)
@@ -44,7 +45,7 @@ addon | version | maintainers | summary
 [base_view_inheritance_extension](base_view_inheritance_extension/) | 16.0.1.2.1 |  | Adds more operators for view inheritance
 [bus_alt_connection](bus_alt_connection/) | 16.0.1.0.0 |  | Needed when using PgBouncer as a connection pooler
 [cron_daylight_saving_time_resistant](cron_daylight_saving_time_resistant/) | 16.0.1.0.1 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Run cron on fixed hours
-[database_cleanup](database_cleanup/) | 16.0.1.1.0 |  | Database cleanup
+[database_cleanup](database_cleanup/) | 16.0.1.2.0 |  | Database cleanup
 [datetime_formatter](datetime_formatter/) | 16.0.1.0.0 |  | Helper functions to give correct format to date[time] fields
 [dbfilter_from_header](dbfilter_from_header/) | 16.0.1.0.1 |  | Filter databases with HTTP headers
 [excel_import_export](excel_import_export/) | 16.0.1.1.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Base module for developing Excel import/export/report
