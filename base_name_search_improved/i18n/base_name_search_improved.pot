@@ -141,8 +141,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_name_search_improved.field_base_language_export__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_base_language_import__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_base_language_install__smart_search
-#: model:ir.model.fields,field_description:base_name_search_improved.field_base_module_install_request__smart_search
-#: model:ir.model.fields,field_description:base_name_search_improved.field_base_module_install_review__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_base_module_uninstall__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_base_module_update__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_base_module_upgrade__smart_search
@@ -249,7 +247,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_name_search_improved.field_mail_alias_mixin_optional__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_mail_blacklist__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_mail_blacklist_remove__smart_search
-#: model:ir.model.fields,field_description:base_name_search_improved.field_mail_bot__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_mail_compose_message__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_mail_composer_mixin__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_mail_followers__smart_search
@@ -283,9 +280,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_name_search_improved.field_mail_wizard_invite__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_phone_blacklist__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_phone_blacklist_remove__smart_search
-#: model:ir.model.fields,field_description:base_name_search_improved.field_privacy_log__smart_search
-#: model:ir.model.fields,field_description:base_name_search_improved.field_privacy_lookup_wizard__smart_search
-#: model:ir.model.fields,field_description:base_name_search_improved.field_privacy_lookup_wizard_line__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_publisher_warranty_contract__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_report_base_report_irmodulereference__smart_search
 #: model:ir.model.fields,field_description:base_name_search_improved.field_report_layout__smart_search
