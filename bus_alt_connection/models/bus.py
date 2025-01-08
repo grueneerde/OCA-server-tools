@@ -13,7 +13,7 @@ import odoo
 from odoo.tools import config
 
 import odoo.addons.bus.models.bus
-from odoo.addons.bus.models.bus import TIMEOUT, hashable
+from odoo.addons.bus.models.bus import TIMEOUT, hashable, stop_event
 
 _logger = logging.getLogger(__name__)
 
@@ -46,7 +46,7 @@ class ImDispatch(odoo.addons.bus.models.bus.ImDispatch):
         with conn.cursor() as cr:
             cr.execute("listen imbus")
             conn.commit()
-            while True:
+            while not stop_event.is_set():
                 if select.select([conn], [], [], TIMEOUT) == ([], [], []):
                     pass
                 else:
